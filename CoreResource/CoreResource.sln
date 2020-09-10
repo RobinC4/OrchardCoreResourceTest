@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreResource", "CoreResource\CoreResource.csproj", "{692E0378-6044-465C-BB80-7A0614107AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2970CF52-B025-4C56-AE77-F580DC110E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafoxCore.Cura.Web", "SafoxCore.Cura.Web\SafoxCore.Cura.Web.csproj", "{6BE0ED2D-9A60-4FE9-A2AA-8241A43B93A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692E0378-6044-465C-BB80-7A0614107AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692E0378-6044-465C-BB80-7A0614107AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692E0378-6044-465C-BB80-7A0614107AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692E0378-6044-465C-BB80-7A0614107AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE0ED2D-9A60-4FE9-A2AA-8241A43B93A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE0ED2D-9A60-4FE9-A2AA-8241A43B93A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE0ED2D-9A60-4FE9-A2AA-8241A43B93A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE0ED2D-9A60-4FE9-A2AA-8241A43B93A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BE0ED2D-9A60-4FE9-A2AA-8241A43B93A8} = {2970CF52-B025-4C56-AE77-F580DC110E5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {908ED97B-2604-469B-88C3-1B4F9FF01A00}
+	EndGlobalSection
+EndGlobal
